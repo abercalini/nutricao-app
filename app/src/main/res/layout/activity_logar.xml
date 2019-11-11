@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fruta1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:id="@+id/login_email"
+        android:hint="Email"
+        android:layout_marginTop="500px"
+        android:background="@drawable/rounded_edittext">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:id="@+id/login_senha"
+        android:hint="Senha"
+        android:layout_marginTop="70px"
+        android:background="@drawable/rounded_edittext"
+        android:inputType="textPassword">
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_botao"
+        android:text="Entrar"
+        android:layout_marginTop="70px"
+        android:background="@drawable/botoa_customizado">
+    </Button>
+
+
+
+
+</LinearLayout>
